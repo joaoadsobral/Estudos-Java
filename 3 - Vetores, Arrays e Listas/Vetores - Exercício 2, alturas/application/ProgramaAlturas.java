@@ -48,5 +48,7 @@ public class ProgramaAlturas {
                 System.out.printf("%s%n", vect[i].getNome());
             }
         }
+        
+        input.close();
     }
 }
