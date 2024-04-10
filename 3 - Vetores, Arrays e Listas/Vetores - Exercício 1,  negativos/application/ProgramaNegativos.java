@@ -22,5 +22,8 @@ public class ProgramaNegativos {
                 System.out.println(vect[i]);
             }
         }
+
+        input.close();
     }
 }
+
