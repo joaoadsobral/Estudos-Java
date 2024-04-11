@@ -35,7 +35,7 @@ public class Matriz {
                         System.out.println("Numero acima = " + mat[i - 1][j]);
                     }
                     if (i < mat.length - 1) {
-                        System.out.println("Numero embaixo = " + mat[i + 1][j]);
+                        System.out.println("Numero abaixo = " + mat[i + 1][j]);
                     }
                 }
 
