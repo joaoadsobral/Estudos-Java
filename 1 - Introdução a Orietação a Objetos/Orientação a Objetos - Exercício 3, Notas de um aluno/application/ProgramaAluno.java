@@ -16,7 +16,7 @@ public class ProgramaAluno {
         aluno.nota3 = input.nextDouble();
         System.out.printf("FINAL GRADE = %.2f%n", aluno.notafinal());
 
-        if(aluno.notafinal() < 90){
+        if(aluno.notafinal() < 60){
             System.out.println("REPROVADO");
             System.out.printf("Para aprovação, faltou = %.2f%n", aluno.reprovado());
         }
